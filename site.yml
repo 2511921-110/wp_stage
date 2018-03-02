@@ -1,0 +1,13 @@
+# encoding: utf-8
+# vim: ft=ruby expandtab shiftwidth=2 tabstop=2
+
+hostname: example.vccw
+ip: 192.168.33.99
+multisite: true
+plugins:
+  - wp-total-hacks
+  - tinymce-templates
+  - theme-check
+  - wordpress-importer
+  - jetpack
+linked_clone: true
